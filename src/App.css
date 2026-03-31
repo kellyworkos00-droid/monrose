@@ -1181,3 +1181,14 @@
     font-size: 0.46rem;
   }
 }
+
+/* Desktop: show several products in one row */
+.products-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+@media (max-width: 1200px) {
+  .products-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
