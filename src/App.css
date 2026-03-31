@@ -857,7 +857,15 @@
 
   .products-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.55rem;
+    gap: 0.45rem;
+  }
+
+  .product-card {
+    border-radius: 0.95rem;
+  }
+
+  .product-image {
+    aspect-ratio: 4 / 2.2;
   }
 
   .product-meta,
@@ -868,18 +876,45 @@
   }
 
   .product-copy {
-    gap: 0.4rem;
-    padding: 0.85rem;
+    gap: 0.28rem;
+    padding: 0.58rem;
+  }
+
+  .product-copy h3 {
+    font-size: 0.82rem;
+  }
+
+  .product-copy p {
+    font-size: 0.72rem;
+    -webkit-line-clamp: 1;
+  }
+
+  .product-tag {
+    font-size: 0.66rem;
+    padding: 0.26rem 0.52rem;
+  }
+
+  .product-price {
+    font-size: 0.78rem;
   }
 
   .product-actions {
-    width: 100%;
-    flex-direction: column;
-    align-items: stretch;
+    margin-top: 0.16rem;
+    width: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.3rem;
+  }
+
+  .product-availability {
+    display: none;
   }
 
   .product-actions .button {
-    width: 100%;
+    width: auto;
+    padding: 0.36rem 0.54rem;
+    font-size: 0.66rem;
   }
 
   .floating-nav {
