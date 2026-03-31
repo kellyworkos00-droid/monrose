@@ -921,3 +921,175 @@
     display: flex;
   }
 }
+
+/* Jumia-inspired marketplace overrides */
+.page-shell {
+  background: #f5f5f5;
+}
+
+.page-shell::before,
+.page-shell::after {
+  display: none;
+}
+
+.topbar {
+  border: 1px solid #e6e6e6;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.08);
+}
+
+.brand-mark {
+  border-radius: 0.7rem;
+  background: linear-gradient(140deg, #f68b1e, #f3a847 68%, #fbc981);
+  box-shadow: none;
+}
+
+.brand-copy span {
+  letter-spacing: 0.08em;
+  color: #222;
+}
+
+.nav-item {
+  border-radius: 0.6rem;
+  color: #3b3b3b;
+}
+
+.nav-item:hover {
+  border-color: #ececec;
+  background: #fff3e6;
+}
+
+.button,
+.product-actions .button {
+  background: #f68b1e;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(246, 139, 30, 0.28);
+}
+
+.button-secondary {
+  background: #fff;
+  color: #333;
+  border: 1px solid #dfdfdf;
+}
+
+.hero-section {
+  gap: 1rem;
+  grid-template-columns: minmax(0, 1.18fr) minmax(16.5rem, 0.82fr);
+}
+
+.hero-copy,
+.hero-slider-card,
+.product-card,
+.highlight-banner,
+.footer-card,
+.footer-panel {
+  background: #fff;
+  border: 1px solid #e9e9e9;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.hero-copy h1 {
+  color: #1f1f1f;
+  letter-spacing: -0.02em;
+}
+
+.hero-copy p,
+.section-heading p,
+.highlight-copy p,
+.footer-copy p,
+.product-copy p,
+.hero-slide p {
+  color: #575757;
+}
+
+.category-pill {
+  background: #fff7ec;
+  border-color: #f2d6b3;
+  color: #3a3127;
+}
+
+.hero-slide-label {
+  color: #8b4d07;
+  background: #fff0de;
+}
+
+.hero-slide strong {
+  color: #f68b1e;
+}
+
+.hero-slide-dots button.is-active {
+  background: #f68b1e;
+}
+
+.section-heading h2,
+.highlight-copy h2,
+.footer-cta h2,
+.product-copy h3 {
+  color: #1e1e1e;
+}
+
+.product-card {
+  border-radius: 0.9rem;
+}
+
+.product-image::after {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.product-tag {
+  background: #fff3e3;
+  color: #8d4e06;
+}
+
+.product-price {
+  color: #f68b1e;
+}
+
+.product-availability {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.deal-banner {
+  background: linear-gradient(120deg, #f68b1e, #f3a847 60%, #f7c183);
+}
+
+.deal-metrics {
+  color: #2c2c2c;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.floating-nav {
+  background: rgba(255, 255, 255, 0.97);
+  border: 1px solid #e8e8e8;
+}
+
+.floating-nav a:first-child {
+  color: #f68b1e;
+  background: #fff1df;
+}
+
+@media (max-width: 1100px) {
+  .hero-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .topbar {
+    border-radius: 0.8rem;
+  }
+
+  .hero-copy,
+  .hero-slider-card {
+    padding: 0.85rem;
+  }
+
+  .products-grid {
+    gap: 0.4rem;
+  }
+
+  .product-card {
+    border-radius: 0.75rem;
+  }
+}
