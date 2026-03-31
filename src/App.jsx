@@ -42,7 +42,7 @@ const featuredProducts = [
     icon: 'bolt',
     price: 'KSh 18,900',
     description: 'Compact torque with a rugged grip for daily site and home installs.',
-    availability: 'In stock - Nairobi',
+    availability: 'In stock',
     cta: 'Buy now',
     background:
       'linear-gradient(145deg, #ffe27c, #ffb703 54%, #cf3a1b)',
@@ -53,7 +53,7 @@ const featuredProducts = [
     icon: 'nut',
     price: 'KSh 10,700',
     description: 'Heavy-duty socket collection arranged for fast access in garages and vans.',
-    availability: 'In stock - Nakuru',
+    availability: 'In stock',
     cta: 'Buy now',
     background:
       'linear-gradient(145deg, #fff0c4, #ffc247 48%, #ef4444)',
@@ -64,7 +64,7 @@ const featuredProducts = [
     icon: 'shield',
     price: 'KSh 4,950',
     description: 'High-visibility protection with adjustable comfort for active job sites.',
-    availability: 'Low stock - Eldoret',
+    availability: 'Low stock',
     cta: 'Buy now',
     background:
       'linear-gradient(145deg, #ffd64d, #ff9b22 55%, #b91c1c)',
@@ -75,7 +75,7 @@ const featuredProducts = [
     icon: 'box',
     price: 'KSh 14,200',
     description: 'Modular wall storage that keeps tools visible and ready to grab fast.',
-    availability: 'In stock - Mombasa',
+    availability: 'In stock',
     cta: 'Buy now',
     background:
       'linear-gradient(145deg, #fff4bf, #f4bf23 52%, #f87171)',
