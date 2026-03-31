@@ -263,18 +263,6 @@ function App() {
               </a>
             </div>
           </div>
-
-          <div className="footer-panel">
-            <div className="footer-meta">
-              <strong>Storefront details</strong>
-              <span className="product-tag">Responsive UI</span>
-            </div>
-            <ul>
-              <li>Hardware-focused content and category structure</li>
-              <li>Conversion-ready product cards and promo areas</li>
-              <li>Responsive layout with floating mobile navigation for Kenyan shoppers</li>
-            </ul>
-          </div>
         </div>
       </footer>
 

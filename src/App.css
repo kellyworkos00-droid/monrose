@@ -710,7 +710,7 @@
 
 .footer-card {
   display: grid;
-  grid-template-columns: 1.05fr 0.95fr;
+  grid-template-columns: 1fr;
   gap: 1rem;
   border-radius: 1.85rem;
   padding: 1.25rem;
