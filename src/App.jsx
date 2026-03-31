@@ -143,11 +143,10 @@ function App() {
       <main>
         <section className="hero-section" id="home">
           <div className="hero-copy">
-            <div className="eyebrow">Built for Kenyan trade and retail</div>
-            <h1>Premium hardware shopping that feels fast and trustworthy.</h1>
+            <div className="eyebrow">Built for Kenya</div>
+            <h1>Fast, trusted hardware shopping.</h1>
             <p>
-              Monross Hardware Kenya keeps shopping simple with clear categories, deal highlights,
-              and product-first cards for fundis, site teams, and home builders across Kenya.
+              Monross Hardware Kenya helps fundis and builders find tools quickly with clear categories and strong deals.
             </p>
 
             <div className="category-strip" aria-label="Popular categories">

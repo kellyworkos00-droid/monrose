@@ -175,15 +175,20 @@
 
 .hero-section {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
-  align-items: start;
+  grid-template-columns: minmax(0, 1.12fr) minmax(18rem, 0.88fr);
+  gap: 1.25rem;
+  align-items: stretch;
   padding: clamp(2.2rem, 6vw, 4.8rem) clamp(1rem, 3vw, 2.4rem) 2.5rem;
 }
 
 .hero-copy {
   display: grid;
-  gap: 1.15rem;
+  gap: 1rem;
+  align-content: start;
+  padding: 1.05rem;
+  border-radius: 1.2rem;
+  background: rgba(255, 251, 239, 0.64);
+  border: 1px solid rgba(89, 47, 15, 0.12);
 }
 
 .hero-slider-card {
@@ -258,15 +263,16 @@
 
 .hero-copy h1 {
   margin: 0;
-  max-width: 10ch;
-  font-size: clamp(3.3rem, 8vw, 6rem);
-  line-height: 0.88;
-  letter-spacing: -0.05em;
+  max-width: 12ch;
+  font-size: clamp(2.45rem, 6.2vw, 4.4rem);
+  line-height: 0.94;
+  letter-spacing: -0.03em;
 }
 
 .hero-copy p {
-  max-width: 38rem;
-  font-size: 1rem;
+  max-width: 34rem;
+  font-size: 0.95rem;
+  margin: 0;
 }
 
 .category-strip {
